@@ -1,0 +1,5 @@
+[build]
+buildCommand = "pnpm install && pnpm run build"
+
+[deploy]
+startCommand = "pnpm --filter @workspace/api-server run start"
