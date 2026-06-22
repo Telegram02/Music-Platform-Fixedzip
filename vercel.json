@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "cd artifacts/caktus-portfolio && npm install && npm run build",
+  "outputDirectory": "artifacts/caktus-portfolio/dist",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
